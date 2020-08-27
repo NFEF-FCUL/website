@@ -1,6 +1,6 @@
 <!-- PROJECT SHIELDS -->
 [![Repo Size][repo-size-shield]][repo-size-url]
-[![Deploy Status][deploy-status-shield][deploy-status-url]]
+[![Deploy Status][deploy-status-shield]][deploy-status-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
