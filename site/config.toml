@@ -26,3 +26,7 @@ theme = "hero"
     name = "Contact"
     url = "/contact/"
     weight = 1
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
