@@ -35,6 +35,7 @@
 
 * [Sobre o NFEF-FCUL](#sobre-o-nfef-fcul)
   * [Website Construído Com](#website-construído-com)
+    + [Requisitos](#requisitos)
 * [Contribuir](#contribuir)
   + [Código de Conduta](#código-de-conduta)
   + [Licença](#licença)
@@ -47,6 +48,9 @@ O NFEF-FCUL tem, também, como objetivo complementar a experiência académica c
 
 ### Website Construído Com
 * [Hugo](https://gohugo.io/)
+
+#### Requisitos
+* [npm](https://www.npmjs.com/)
 
 
 <!-- CONTRIBUTING -->
