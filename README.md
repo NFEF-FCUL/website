@@ -1,46 +1,96 @@
-# Hugo template for Netlify CMS with Netlify Identity
+<!-- PROJECT SHIELDS -->
+[![Repo Size][repo-size-shield]][repo-size-url]
+[![Deploy Status][deploy-status-shield]][deploy-status-url]
+[![Forks][forks-shield]][forks-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
 
-## Getting started
 
-Use our deploy button to get your own copy of the repository. 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/NFEF-FCUL/website">
+    <img src="site/static/img/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
+  <h3 align="center">NFEF-FCUL</h3>
 
-This will setup everything needed for running the CMS:
+  <p align="center">
+    Website do Núcleo de Física e de Engenharia Física da Faculdade de Ciências da Universidade de Lisboa
+    <br />
+    <a href="https://github.com/NFEF-FCUL/website"><strong>Explorar docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/NFEF-FCUL/website/issues">Reportar Bug</a>
+    ·
+    <a href="https://github.com/NFEF-FCUL/website/issues">Pedir Feature</a>
+  </p>
+</p>
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Netlify CMS
 
-Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
 
-Now you're all set, and you can start editing content!
+<!-- TABLE OF CONTENTS -->
+## Lista de Conteúdos
 
-## Local Development
+* [Sobre o NFEF-FCUL](#sobre-o-nfef-fcul)
+  * [Website Construído Com](#website-construído-com)
+    + [Requisitos](#requisitos)
+* [Contribuir](#contribuir)
+  + [Código de Conduta](#código-de-conduta)
+  + [Licença](#licença)
+  + [Convenções nas mensagens de commit no Git](#convenções-nas-mensagens-de-commit-no-git)
 
-Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
+<!-- ABOUT NFEF-FCUL -->
+## Sobre o NFEF-FCUL
+O Núcleo de Física e de Engenharia Física da Faculdade de Ciências da Universidade de Lisboa foi criado a 19 de Maio de 2016. Conta já com a quarta geração e a nossa missão é garantir a representação dos estudantes de Física e Engenharia Física na faculdade, bem como permitir uma interação entre os alunos e o departamento.
+O NFEF-FCUL tem, também, como objetivo complementar a experiência académica com eventos socais e pedagógicos. Dentro destes é importante destacar os churrascos bianuais, os diversos workshops, o programa do mentorado e o maior evento do núcleo, "Física Fora da Academia".
 
-Then start the development server with `yarn start` or `npm start`.
+### Website Construído Com
+* [Hugo](https://gohugo.io/)
 
-## Layouts
+#### Requisitos
+* [npm](https://www.npmjs.com/)
 
-The template is based on small, content-agnostic partials that can be mixed and matched. The pre-built pages showcase just a few of the possible combinations. Refer to the `site/layouts/partials` folder for all available partials.
 
-Use Hugo’s `dict` functionality to feed content into partials and avoid repeating yourself and creating discrepancies.
+<!-- CONTRIBUTING -->
+# Contribuir
+Existem muitas maneiras de contribuir ao desenvolvimento do website, encontra a que se enquadra melhor com as tuas capacidades e interesses e abre in issue/pull request no repositório.
 
-## CSS
+Exemplos de contribuições que nós adoramos:
 
-The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano. To customize the template for your brand, refer to `src/css/imports/_variables.css` where most of the important global variables like colors and spacing are stored.
+- **Código**
+- **Report de bugs**
+- **Revisão de código**
+- **Traduções**
+- **Melhorias a UI**
 
-## SVG
+## Código de Conduta
 
-All SVG icons stored in `site/static/img/icons` are automatically optimized with SVGO (gulp-svgmin) and concatenated into a single SVG sprite stored as a a partial called `svg.html`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
+Por favor lê e segue o nosso [Código de Conduta](https://github.com/NFEF-FCUL/website/blob/master/CODE_OF_CONDUCT.md).
 
-```
-<svg width="16px" height="16px" class="db">
-  <use xlink:href="#SVG-ID"></use>
-</svg>
-```
+## Licença
+
+Qualquer contribuição está sob licença [MIT](https://opensource.org/licenses/MIT).
+
+Por favor lê com atenção a nossa [licença](https://github.com/NFEF-FCUL/website/blob/master/LICENSE) e pergunta-nos se tiveres alguma questão.
+
+## Convenções nas mensagens de commit no Git
+
+Ajuda-nos a manter o histórico do repositório consistente.
+
+Usamos [gitmoji](https://gitmoji.carloscuesta.me/) como a nossa convenção de mensagens no git.
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[deploy-status-shield]: https://api.netlify.com/api/v1/badges/c09289ed-4ec7-485a-937d-8a2e6c0fe223/deploy-status
+[deploy-status-url]: https://app.netlify.com/sites/nfef-fcul/deploys
+[repo-size-shield]: https://img.shields.io/github/repo-size/NFEF-FCUL/website
+[repo-size-url]: https://github.com/NFEF-FCUL/website
+[forks-shield]: https://img.shields.io/github/forks/NFEF-FCUL/website
+[forks-url]: https://github.com/NFEF-FCUL/website/network/members
+[issues-shield]: https://img.shields.io/github/forks/NFEF-FCUL/website
+[issues-url]: https://github.com/NFEF-FCUL/website/issues
+[license-shield]: https://img.shields.io/github/license/NFEF-FCUL/website
+[license-url]: https://github.com/NFEF-FCUL/website/LICENSE

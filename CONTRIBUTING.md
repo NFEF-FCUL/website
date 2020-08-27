@@ -1,13 +1,12 @@
-# CONTRIBUTING
+# CONTRIBUTIR
 
-Contributions are always welcome, no matter how large or small. Before contributing,
-please read the [code of conduct](CODE_OF_CONDUCT.md).
+Contribuições são sempre bem vindas, pequenas ou grandes. Antes de contribuir, por favor lê o [código de conduta](CODE_OF_CONDUCT.md).
 
 ## Setup
 
 ```sh
-$ git clone https://github.com/netlify/victor-hugo
-$ cd victor-hugo
+$ git clone https://github.com/NFEF-FCUL/website
+$ cd website
 $ npm install
 ```
 
@@ -27,7 +26,7 @@ $ npm run test
 $ npm run test:watch
 ```
 
-## Running the server
+## Inicializar o servidor
 
 ```sh
 $ npm run start
@@ -35,15 +34,13 @@ $ npm run start
 
 ## Pull Requests
 
-We actively welcome your pull requests.
+Aceitamos activamente pull requests.
 
-1. Fork the repo and create your branch from `master`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
+1. Faz fork do repositório e cria o teu branch a partir de `master`.
+2. Se adicionaste código que deve ser testado, adiciona testes.
+4. Certifica-te que os testes passam.
+5. Certifica-te que o teu código é legível e está bem documentado.
 
-## License
+## Licença
 
-By contributing to Victor-Hugo, you agree that your contributions will be licensed
-under its [MIT license](LICENSE).
+Ao contribuir para o website do NFEF-FCUL estás a concordar com que as tuas contribuições estejam licençadas sob [MIT license](LICENSE).
