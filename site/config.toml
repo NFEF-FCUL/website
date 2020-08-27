@@ -1,9 +1,42 @@
-baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "Homepage"
+baseURL = "/"
+languageCode = "pt-pt"
+title = "NFEF-FCUL"
+theme = "hero"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[params]
+  google_analytics_id=""
+
+  [params.homepage_meta_tags]
+    meta_description = "O NFEF-FCUL serve para garantir a representação dos estudantes de Física e Engenharia Física na faculdade, bem como permitir uma interação entre os alunos e o departamento."
+    meta_og_title = "Website do NFEF-FCUL"
+    meta_og_type = "website"
+    meta_og_url = ""
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_description = ""
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@zerostaticio"
+    meta_twitter_creator = "@zerostaticio"
+
+[[menu.main]]
+	name = "Services"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = "Work"
+    url = "/work/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
